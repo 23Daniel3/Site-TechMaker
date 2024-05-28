@@ -1,0 +1,242 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+    background-color: #191815;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container img {
+    max-width: 10%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.container h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 300px;
+}
+
+h2 {
+  text-align: justify;
+  margin-top: 80px;
+  margin-left: 675px;
+  font-size: 40px;
+
+}
+
+p {
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    padding: 40px;
+}
+
+li {
+    font-size: 25px;
+}
+
+.contato li {
+    margin-left: 700px;
+}
+
+.projetos img {
+    max-width: 90%; 
+    height: auto; 
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.sobre {
+    text-align: justify;
+}
+
+.membros {
+    list-style-type: none;
+    padding: 0;
+}
+
+.membros li {
+    margin-bottom: 10px;
+}
+
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin-left: 60px;
+
+  }
+
+.projeto {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contato {
+  text-align: justify;
+  margin-bottom: 90px;
+  margin-left: 0px;
+}
+
+footer {
+    background-color: #333;
+    padding: 0px;
+    text-align: center;
+}
+
+.loading svg polyline {
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  .loading svg polyline#back {
+    fill: none;
+    stroke: #ff4d5033;
+  }
+  
+  .loading svg polyline#front {
+    fill: none;
+    stroke: #ff4d4f;
+    stroke-dasharray: 48, 144;
+    stroke-dashoffset: 192;
+    animation: dash_682 1.4s linear infinite;
+  }
+  
+  @keyframes dash_682 {
+    72.5% {
+      opacity: 0;
+    }
+  
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+.loading {
+    margin-left: 750px;
+    position: absolute;
+    top: 2px;
+}
+
+.btn {
+    position: absolute;
+    top: 1520px;
+    right: 900px;
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(34, 34, 97);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+  }
+  
+  .btn:active {
+    scale: 0.92;
+  }
+  
+  .btn:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  .insta {
+    position: absolute;
+    top: 1520px;
+    right: 420px;
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(34, 34, 97);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+  }
+  
+  .insta:active {
+    scale: 0.92;
+  }
+  
+  .insta:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  .youtube {
+    position: absolute;
+    top: 1520px;
+    right: 660px;
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(34, 34, 97);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+  }
+  
+  .youtube:active {
+    scale: 0.92;
+  }
+  
+  .youtube:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+
+  
+
+
+  
